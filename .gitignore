@@ -1,0 +1,61 @@
+# Original game files
+/game/
+/original/
+/extracted/
+
+*.iso
+*.chd
+
+# Known .hack//INFECTION executable
+/SLUS_202.67
+
+# Generated recompilation output
+/generated/
+/intermediate/
+
+# Build output
+/build/
+/out/
+/bin/
+/dist/
+
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# Ghidra local projects
+*.gpr
+*.rep/
+/ghidra-projects/
+
+# Logs / diagnostics
+*.log
+/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / IDEs
+.vscode/
+.idea/
+
+*.swp
+*.swo
+*~
+*.bak
+
+# OS metadata
+.DS_Store
+Thumbs.db
