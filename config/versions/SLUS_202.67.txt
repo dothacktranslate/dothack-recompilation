@@ -1,0 +1,8 @@
+.hack//INFECTION
+Region: NTSC-U
+Product ID: SLUS-20267
+
+Executable: SLUS_202.67
+Size: 19223388 bytes
+SHA-256: 75cba9ed447c61867ed0ab9cde426570f0074b8f0ff9fee2a03645d062113cec  game/SLUS_202.67
+CRC32: DF941C1E
