@@ -7,14 +7,10 @@
 # - no SCE symbol database is used by this Ghidra script
 
 [general]
-input = "game/SLUS_202.67"
+input = "game/infection/SLUS_202.67"
 output = "generated/SLUS_202.67"
 ghidra_output = "config/symbols/SLUS_202.67.csv"
-
 single_file_output = false
-low_memory_mode = false
-output_worker_threads = 1
-
 patch_syscalls = false
 patch_cop0 = true
 patch_cache = true
@@ -282,9 +278,6 @@ stubs = [
   "sceSifGetNextRequest@0x0011CF00",
   "sceSifExecRequest@0x0011CF58",
   "sceSifRpcLoop@0x0011D120",
-  "sceFsSemInit@0x0011D678",
-  "sceFsSigSema@0x0011D6F8",
-  "sceFsInit@0x0011D7C8",
   "sceFsReset@0x0011DA20",
   "sceOpen@0x0011DA58",
   "sceClose@0x0011DCE0",
@@ -317,6 +310,7 @@ stubs = [
   "InitTLB@0x00121DD0",
   "Copy@0x00122550",
   "GetEntryAddress@0x00122598",
+  "InitTLB@0x001226C0",
   "sceSdRemoteInit@0x001227D0",
   "sceSdTransToIOP@0x00122878",
   "sceSdCallBack@0x00122900",
@@ -528,12 +522,12 @@ untracked_stubs = [
 skip = []
 
 [ghidra_export]
-function_count = 2268
+function_count = 2244
 code_label_count = 0
-csv_record_count = 2268
-stub_count = 421
+csv_record_count = 2244
+stub_count = 422
 untracked_stub_count = 82
 skip_count = 0
-uncategorized_count = 1765
+uncategorized_count = 1740
 runtime_call_name_count = 657
 runtime_call_source = "embedded_ps2_call_list_snapshot"

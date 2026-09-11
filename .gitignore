@@ -13,6 +13,9 @@
 /generated/
 /intermediate/
 
+# Debugger output
+/ps2_debug_dumps/
+
 # Build output
 /build/
 /out/
