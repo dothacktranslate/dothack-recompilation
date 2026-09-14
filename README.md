@@ -26,7 +26,7 @@
 The project is intended to support the complete original four-game `.hack` series released for the PlayStation 2.
 
 | Game | US Product ID | Reference Hash | Current Project Status |
-|---|---|---|
+|---|---|---|---|
 | **.hack//INFECTION Part 1** | `SLUS-20267` | TBD | 🟡 **Active development** |
 | **.hack//MUTATION Part 2** | `SLUS-20562` | TBD |➖ Not started |
 | **.hack//OUTBREAK Part 3** | `SLUS-20563` | TBD | ➖ Not started |
